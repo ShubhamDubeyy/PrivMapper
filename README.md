@@ -1,3 +1,4 @@
+![PrivMapper](logo.png)
 # PrivMapper
 
 > One command. Multiple AWS accounts. Pentest-ready IAM report.
