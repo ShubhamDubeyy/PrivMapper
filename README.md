@@ -53,13 +53,13 @@ git clone https://github.com/ShubhamDubeyy/privmapper
 ## Usage
 
 ```bash
-python3 pmapper_iam.py hg-dev hg-prod hg-services hg-capital
+python3 pmapper_iam.py profile-a profile-b profile-c profile-d
 ```
 
 Or set defaults at the top of the script:
 
 ```python
-DEFAULT_PROFILES = ["hg-dev", "hg-prod", "hg-services", "hg-capital"]
+DEFAULT_PROFILES = ["profile-a", "profile-b", "profile-c", "profile-d"]
 ```
 
 Output lands in `pmapper_output_YYYYMMDD_HHMMSS/report.html`. Open in any browser.
@@ -83,14 +83,14 @@ Add any additional unreachable regions to this variable at the top of the script
 ```
 pmapper_output_20260415_143000/
 ├── report.html
-├── hg-dev/
+├── profile-a/
 │   ├── 02_graph_stats.txt
 │   ├── graph.svg
 │   ├── presets/   (privesc, wrongadmin, serviceaccess, endgame)
 │   └── queries/   (38 IAM permission checks)
-├── hg-prod/
-├── hg-services/
-└── hg-capital/
+├── profile-b/
+├── profile-c/
+└── profile-d/
 ```
 
 ---
